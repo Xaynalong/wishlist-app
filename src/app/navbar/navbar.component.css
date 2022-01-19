@@ -1,0 +1,65 @@
+*{
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.Header{
+
+	max-height: 90px;
+	background: darkblue;
+}
+
+/* Styling for navigation bar */
+.navbar{
+
+	max-width: 720px;
+	display: flex;
+	align-items: center;
+	padding:  20px;
+
+
+
+}
+
+nav{
+
+	flex: 1; /* flex makes allignment in the class the same */
+	text-align: right;
+	
+
+}
+
+nav ul{
+
+	display:  inline-block; /* removes bullet point */
+	list-style-type: none;
+	color: white;
+
+}
+
+nav ul li{
+
+	display:  inline-block; /*navigation bar are inline */
+	margin-right: 30px; /*add margins between the navigation bar */
+	font-size: 30px;
+
+
+}
+
+
+/*Change font color for navigation bar */
+a{
+
+	text-decoration: none;
+	color: white; /* set color text rgb number */
+}
+
+

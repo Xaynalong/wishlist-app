@@ -1,0 +1,18 @@
+.container{
+	max-width: 1900px;
+	margin: 0;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 130px;
+	
+	/*background: radial-gradient(#fff, #ffd6d6); /*background color*/
+
+	background-attachment: fixed; /*background extend shrink naturally */
+	background: cover; /*cover the entire thing */
+	background-reapeat:  no-repeat;
+	background-position: center; /*center the image in the middle of th webpage */
+	background-image: url(/assets/image/lifestyle/sneakerhead.jpg); /* import background */
+    
+
+}
+

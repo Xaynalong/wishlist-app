@@ -1,0 +1,46 @@
+*{
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+
+	font-family: 'Poppins', sans-serif;
+
+}
+
+h1{
+	color: white;
+	text-align: center;
+	padding-bottom: 80px;
+	font-size: 75px;
+}
+
+.row{
+
+	/*heading and col imge will be side to side think of it as a block*/
+
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+
+
+.shoeName{
+	margin-top: 15px;
+	font-size: 20px;
+	color: white;
+}
+.shoePrice{
+	display: inline-block;
+}
+
+p{
+	font-size: 20px;
+	color: white;
+}

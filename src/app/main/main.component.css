@@ -1,0 +1,51 @@
+*{
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	background: radial-gradient(white, black);
+}
+
+
+.container{
+	max-width: 1900px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 160px;
+    padding-bottom: 105px;
+}
+
+.row{
+
+	/*heading and col imge will be side to side think of it as a block*/
+
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+.image img{
+	width: 500px;
+	height: 700px;
+}
+
+.image{
+
+	transition: 0.5s;
+}
+
+.image:Hover{
+	transform: translateY(30px);
+	opacity: 0.4;
+}
+
+
+
+
+

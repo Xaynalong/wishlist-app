@@ -1,0 +1,9 @@
+::ng-deep * { /*this is required to ensure that margin is 0 perfectly */
+      
+    margin: 0;
+    padding: 0;
+    
+    
+  }
+
+  

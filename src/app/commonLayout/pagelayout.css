@@ -1,0 +1,63 @@
+*{
+	margin:  0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+
+	font-family: 'Poppins', sans-serif;
+
+}
+
+h1{
+	color: white;
+	text-align: center;
+	padding-bottom: 80px;
+	font-size: 75px;
+}
+
+.row{
+
+	/*heading and col imge will be side to side think of it as a block*/
+
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+
+.image img{
+	width: 500px;
+	height: 275x;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.5); /*create box and shadow*/
+	
+}
+
+.image{
+	padding-bottom: 100px;
+
+	transition: 0.5s;
+}
+
+.image:Hover{
+	transform: translateY(-30px);
+	opacity: 0.4;
+}
+
+.shoeName{
+	margin-top: 15px;
+	font-size: 20px;
+	color: white;
+}
+.shoePrice{
+	display: inline-block;
+}
+
+p{
+	font-size: 20px;
+	color: white;
+}
